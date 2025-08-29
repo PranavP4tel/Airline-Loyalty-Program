@@ -43,8 +43,7 @@ def train_model(df_test):
     ytrain = df_test['churn'].values
     xtrain = df_test[features]
 
-    # Define pipeline: DictVectorizer -> ColumnTransformer(preprocessing) -> Model
-    # DictVectorizer vectorizes all features
+    # Define pipeline
     pipeline = make_pipeline(
         ColumnTransformer(
             transformers=[

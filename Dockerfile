@@ -27,6 +27,5 @@ EXPOSE 9696
 ENTRYPOINT ["uvicorn","predict:app","--host","0.0.0.0","--port","9696"]
 
 #Execute using the following commands
-#docker build churn-prediction .
-
-#docker run -it --rm -p 9696:9696 churn-prediction
+#1. docker build churn-prediction .
+#2. docker run -it --rm -p 9696:9696 churn-prediction
