@@ -1,0 +1,12 @@
+[project]
+name = "analytics-club-session-1"
+version = "0.1.0"
+description = "Churn prediction service"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.116.1",
+    "pandas>=2.3.2",
+    "scikit-learn>=1.7.1",
+    "uvicorn>=0.35.0",
+]
